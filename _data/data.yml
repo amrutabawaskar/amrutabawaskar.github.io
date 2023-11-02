@@ -92,21 +92,59 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Java
-        level: 98%
+       groups:
+        - title : Programming Languages
+          items:
+            - name: Java
+              level: 98%
+            - name: SQL
+              level: 98%
 
-      - name: SQL
-        level: 98%
+            - name: HTML
+              level: 98%
+        - title : Frameworks
+          items:
+            - name: Spring Boot JDBC Spring MVC
+              level: 95%
 
-      - name: HTML
-        level: 98%
+            - name: Event driven architecture
+              level: 85%
 
-      - name: Spring Boot JDBC Spring MVC
-        level: 95%
+            - name: Micro service architecture
+              level: 60%
+        - title : Architecture
+          items:
+            - name: Event driven architecture
+              level: 95%
 
-      - name: Event driven architecture
-        level: 85%
+            - name: Micro service architecture
+              level: 85%
 
-      - name: Micro service architecture
-        level: 60%
+            - name: Object Oriented Design
+              level: 60%
+            
+            - name: Tools
+              level: 60%
 
+            - name: REST API
+              level: 60%
+
+        - title: SDLC and CI/CD
+          items:
+            - name: Agile software development 
+            - name: Jira 
+            - name: Git 
+            - name: Jenkins
+
+        - title: Business Monitoring Tools
+          items:
+            - name: ELK 
+            - name: Grafana 
+            - name: Postman
+        - title: FUNCTIONAL SKILLS
+          items:
+          - name: Requirement gathering
+          - name: Application development
+          - name: Reporting and documentation 
+          - name: Quality assurance 
+          - name: Solution upgrade

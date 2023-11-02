@@ -157,6 +157,19 @@ p {
       }
     }
   }
+  .skills-list {
+    margin-bottom: 0;
+    li {
+      display: inline-block;
+      margin-bottom: 10px;
+      text-align: center;
+      &:after { content: "  \00b7  "; };
+      &:last-child {
+        margin-bottom: 0;
+      }
+      &:last-child:after { content: ""; }
+    }
+  }
 }
 
 .main-wrapper {
